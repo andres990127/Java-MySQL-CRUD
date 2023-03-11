@@ -13,7 +13,7 @@ public class Conexion {
         try {
             conection = DriverManager.getConnection("jdbc:mysql://sql10.freemysqlhosting.net/sql10604881","sql10604881","kcN11tenqz");
             if(conection != null){
-                System.out.println("¡Conexión exitosa!");
+                System.out.println("¡Conexión a BD exitosa!");
             }
         }catch (SQLException e){
             System.out.println(e);
